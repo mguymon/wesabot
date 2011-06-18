@@ -16,7 +16,7 @@ class KibitzPlugin < Campfire::PollingBot::Plugin
       bot.say("#{$1} #{person}")
     when /(^later|(?:good\s*)?bye)/i
       bot.say("#{$1} #{person}")
-    when /you rock|awesome|cool/i
+    when /you rock|awesome|cool|nice/i
       sayings = ["Thanks, #{person}, you're pretty cool yourself.",
                  "I try.",
                  "Aw, shucks. Thanks, #{person}."]
