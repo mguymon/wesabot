@@ -2,3 +2,4 @@ config/*.yml
 config/deploy.rb
 src/*
 .bundle
+db/*
