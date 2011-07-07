@@ -54,7 +54,10 @@ GEM
     highline (1.6.1)
     httparty (0.6.1)
       crack (= 0.1.8)
+    httpclient (2.2.1)
     i18n (0.5.0)
+    jira4r (0.3.0)
+      soap4r
     json (1.5.1)
     linecache (0.43)
     mime-types (1.16)
@@ -83,6 +86,8 @@ GEM
       ruby-debug-base (~> 0.10.4.0)
     ruby-debug-base (0.10.4)
       linecache (>= 0.3)
+    soap4r (1.5.8)
+      httpclient (>= 2.1.1)
     tinder (1.4.3)
       activesupport
       eventmachine
@@ -111,6 +116,7 @@ DEPENDENCIES
   google-search
   httparty
   i18n
+  jira4r
   json
   railsless-deploy
   rake

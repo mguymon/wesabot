@@ -16,6 +16,8 @@ gem "httparty"
 gem "google-search"
 gem "firering", "~>1.0.8", :git => "git://github.com/indirect/firering.git"
 
+gem "jira4r"
+
 group :test do
   gem "rspec", ">= 2.0.0.beta.8"
   gem "rake" # needed for Rspec::Core::RakeTask
